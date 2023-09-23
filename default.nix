@@ -1,4 +1,4 @@
-{ config, pkgs, ...}:
+{ lib, config, pkgs, ...}:
 
 let 
   plugin_packages = with pkgs; 
